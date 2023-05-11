@@ -1,0 +1,404 @@
+{
+	"id": "47ef63cf-3bf2-4eb7-9e96-9606f20046f7",
+	"name": "https://restful-booker.herokuapp.com",
+	"timestamp": "2023-01-03T10:50:58.225Z",
+	"collection_id": "19846975-3c388c74-0fdf-4cb1-804b-13f4de77d909",
+	"folder_id": 0,
+	"environment_id": "19846975-515e8fb7-b332-4330-8293-76c07256adf9",
+	"totalPass": 24,
+	"totalFail": 7,
+	"results": [
+		{
+			"id": "dcf7e96c-9629-4f5f-b1d0-097f6b751314",
+			"name": "Create Authentication Token",
+			"url": "https://restful-booker.herokuapp.com/auth",
+			"time": 902,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 300ms": false,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 300ms": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				902
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 300ms": false,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "4dcecb01-242d-47c1-aaac-ed05622a5318",
+			"name": "Create a Booking",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 284,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true,
+				"Response time is less than 400ms": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 400ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				284
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 400ms": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "cfafb3b3-592d-4ece-9d82-e1eecaa13baf",
+			"name": "Fetch the created Booking",
+			"url": "https://restful-booker.herokuapp.com/booking/117",
+			"time": 280,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true,
+				"Response time is less than 400ms": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 400ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				280
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 400ms": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "627d9b57-3d5f-4e54-ac9a-2e3bfa0c08b3",
+			"name": "Update the Booking",
+			"url": "https://restful-booker.herokuapp.com/booking/117",
+			"time": 277,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true,
+				"Response time is less than 400ms": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 400ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				277
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 400ms": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "ca279c2c-ff4c-4ca1-803d-7108e80a7c86",
+			"name": "Fetch the updated details",
+			"url": "https://restful-booker.herokuapp.com/booking/117",
+			"time": 277,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": false,
+				"Response time is less than 300ms": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 300ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				277
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": false,
+					"Response time is less than 300ms": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "9fda7e1e-8761-4354-88ed-8be1c8f60df0",
+			"name": "Delete the Booking",
+			"url": "https://restful-booker.herokuapp.com/booking/117",
+			"time": 282,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 200": false,
+				"Response time is less than 200ms": false,
+				"Successful POST request": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 200ms": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				282
+			],
+			"allTests": [
+				{
+					"Status code is 200": false,
+					"Response time is less than 200ms": false,
+					"Successful POST request": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "a6bd4aee-e9ec-4c71-b6b1-284c19ebd6e8",
+			"name": "Fetch the deleted user that does'nt exist in server anymore",
+			"url": "https://restful-booker.herokuapp.com/booking/117",
+			"time": 293,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": false,
+				"Body matches string": false,
+				"Response time is less than 400ms": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Body matches string": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 400ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				293
+			],
+			"allTests": [
+				{
+					"Status code is 200": false,
+					"Body matches string": false,
+					"Response time is less than 400ms": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "d7664c1c-b395-4716-8395-916f08b5edc9",
+			"name": "Fetch the Booking id",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 285,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true,
+				"Response time is less than 200ms": false,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				285
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 200ms": false,
+					"Status code name has string": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2880,
+	"collection": {
+		"requests": [
+			{
+				"id": "dcf7e96c-9629-4f5f-b1d0-097f6b751314",
+				"method": "POST"
+			},
+			{
+				"id": "4dcecb01-242d-47c1-aaac-ed05622a5318",
+				"method": "POST"
+			},
+			{
+				"id": "cfafb3b3-592d-4ece-9d82-e1eecaa13baf",
+				"method": "GET"
+			},
+			{
+				"id": "627d9b57-3d5f-4e54-ac9a-2e3bfa0c08b3",
+				"method": "PUT"
+			},
+			{
+				"id": "ca279c2c-ff4c-4ca1-803d-7108e80a7c86",
+				"method": "GET"
+			},
+			{
+				"id": "9fda7e1e-8761-4354-88ed-8be1c8f60df0",
+				"method": "DELETE"
+			},
+			{
+				"id": "a6bd4aee-e9ec-4c71-b6b1-284c19ebd6e8",
+				"method": "GET"
+			},
+			{
+				"id": "d7664c1c-b395-4716-8395-916f08b5edc9",
+				"method": "GET"
+			}
+		]
+	}
+}
